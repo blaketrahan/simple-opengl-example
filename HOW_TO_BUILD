@@ -1,0 +1,6 @@
+g++
+SDL2
+glew
+glm
+
+g++ main.cpp -g -std=c++11 -lSDL2 -lGL -lGLU -lGLEW -I../b_libs -I../stb -o sample_program && ./sample_program
